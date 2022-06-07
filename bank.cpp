@@ -240,6 +240,25 @@ void Account ::modify()
     getch();
 }
 
+//========================================================
+//                  FUNCTION DECLARATIONS
+//========================================================
+void login();
+void admin_login();
+void admin_menu();
+void open_acc();
+void check_acc();
+void list_all_acc();
+void modify_acc();
+void close_acc();
+void account_holder_login();
+void account_holder_menu(Account &);
+void loading_screen();
+void deposit(Account &);
+void withdraw(Account &);
+void transfer(Account &);
+void exit();
+
 //==============================================================================
 //                       FUNCTION FOR THE AXIS (GOTOXY)
 //==============================================================================
